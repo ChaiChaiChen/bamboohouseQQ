@@ -46,10 +46,6 @@ header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
 }
-header img{
-    width: 4rem;
-    align-items: center;
-}
 header .logo i{
     color: var(--green);
 }
@@ -318,6 +314,11 @@ section:nth-child(even){
     .menu .box-container img{
         align-items: center;
         width: 100%;
+    }
+    .dishes .box-container .box img{
+        height: 40rem;
+        margin: 1rem 0;
+        
     }
 }
 @media(max-width:768px){
