@@ -319,11 +319,6 @@ section:nth-child(even){
         align-items: center;
         width: 100%;
     }
-    .dishes .box-container .box img{
-        height: 30rem;
-        margin: 1rem 0;
-        
-    }
 }
 @media(max-width:768px){
     header .icons #menu-bars{
