@@ -311,7 +311,7 @@ section:nth-child(even){
     }
     .menu .box-container img{
         align-items: center;
-        width: 50%;
+        width: 100%;
     }
 }
 @media(max-width:768px){
