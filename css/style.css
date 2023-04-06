@@ -236,6 +236,7 @@ section:nth-child(even){
 }
 
 .menu .box-container img{
+    align-items: center;
     width: 100%;
 }
 
@@ -307,6 +308,10 @@ section:nth-child(even){
     .home .home-slider .slide{
         padding-left: 0rem;
         padding-right: 0rem;
+    }
+    .menu .box-container img{
+        align-items: center;
+        width: 50%;
     }
 }
 @media(max-width:768px){
