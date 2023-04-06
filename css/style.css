@@ -126,6 +126,10 @@ header .icons #menu-bars{
     background: var(--green);
 }
 
+section:nth-child(even){
+    background: #eee;
+}
+
 .sub-heading{
     text-align: center;
     color: var(--green);
@@ -140,9 +144,10 @@ header .icons #menu-bars{
     text-transform: uppercase;
 }
 
+
 .dishes .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
     gap: 1.5rem;
 }
 
@@ -183,6 +188,56 @@ header .icons #menu-bars{
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    font-size: 4rem;
+    padding: .5rem 0;
+}
+
+.about .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    line-height: 2;
+}
+
+
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
 }
 /* media queries */
 @media(max-width:991px){
