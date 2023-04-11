@@ -92,8 +92,8 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
-    /* padding-left: 11rem;
-    padding-right: 11rem; */
+    padding-left: 11rem;
+    padding-right: 11rem;
 }
 .home .home-slider .slide .content{
     flex:1 1 45rem;
@@ -227,6 +227,7 @@ section:nth-child(even){
 .menu .box-container{
     display: grid;
     gap: 1.5rem;
+    justify-content: center;    
 }
 
 .menu h3{
@@ -237,8 +238,7 @@ section:nth-child(even){
 }
 
 .menu .box-container img{
-    align-items: center;
-    width: 100%;
+    width: 50rem;
 }
 
 .footer .box-container{
@@ -260,6 +260,10 @@ section:nth-child(even){
     color: var(--light-color);
 }
 
+.footer .box-container .box img{
+    width: 1rem;
+}
+
 .footer .box-container .box a:hover{
     color: var(--green);
     text-decoration: underline;
@@ -272,7 +276,6 @@ section:nth-child(even){
 .footer .fans {
     margin-top: 2rem;
     text-align: center;
-
 }
 
 .footer .fans a{
@@ -371,4 +374,5 @@ section:nth-child(even){
     html{
         font-size: 50%;
     }
+    
 }
