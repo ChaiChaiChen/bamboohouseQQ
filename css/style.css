@@ -92,8 +92,8 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
-    padding-left: 11rem;
-    padding-right: 11rem;
+    /* padding-left: 11rem;
+    padding-right: 11rem; */
 }
 .home .home-slider .slide .content{
     flex:1 1 45rem;
@@ -265,6 +265,24 @@ section:nth-child(even){
     text-decoration: underline;
 }
 
+.footer .box-container .box a img{
+    width: 1.5rem;
+}
+
+.footer .fans {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.footer .fans a{
+    font-size: 2rem;
+    color: #3b5998;
+}
+.footer .fans img{
+    width: 2rem;
+
+}
 
 .footer .credit{
     text-align: center;
