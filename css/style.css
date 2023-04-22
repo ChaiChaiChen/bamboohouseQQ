@@ -370,9 +370,3 @@ section:nth-child(even){
     }
 }
 
-@media(max-width:991px){
-    html{
-        font-size: 50%;
-    }
-    
-}
